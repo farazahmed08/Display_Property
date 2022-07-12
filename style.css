@@ -1,0 +1,59 @@
+body {
+    background-color: rgb(241, 235, 227);
+    color: #000000;
+    font-family: sans-serif;
+}
+
+h1 {
+    color: coral;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+    text-align: center;
+
+    padding: 20px;
+    margin-bottom: 0;
+}
+
+
+p {
+    outline: 3px solid coral;
+    margin: 45px;
+    padding: 30px;
+
+    text-indent: 20px;
+}
+
+p a {
+    border: 1px solid rgb(196, 0, 235);
+    height: 100px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    
+}
+
+
+a {
+    font-style: italic;
+}
+
+
+a:hover {
+    background: yellow;
+}
+
+
+.btn {
+    display: inline-block;
+    background: lightblue;
+    color: #000000;
+    padding: 35px;
+    margin-top: 50px;
+    margin-left: 200px;
+
+    border: 2px groove rgb(223, 107, 12);
+}
+
+.btn:hover {
+    background: darkblue;
+    color:wheat
+}
